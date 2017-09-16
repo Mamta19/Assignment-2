@@ -1,0 +1,205 @@
+/*style for body*/
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #888;
+}
+
+
+/*style for page*/
+
+.main {
+    width: 960px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+
+/*style for main image and texts*/
+
+.main-image {
+    background-image: url(sky.jpeg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    height: 429px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*style for navigation links*/
+
+nav a {
+    float: right;
+    text-align: right;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.main-image h1 {
+    color: white;
+    text-align: center;
+    clear: both;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.main-image h3 {
+    color: white;
+    text-align: center
+}
+
+
+/*style for hyperlink*/
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*style for content*/
+
+article {
+    float: left;
+    width: 75%;
+    padding-left: 20px;
+}
+
+
+/*style for quote*/
+
+.quote {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    font-style: italic;
+    border: 1px solid #888;
+}
+
+
+/*style for quote border*/
+
+.quote div {
+    text-align: right;
+}
+
+
+/*style for aside*/
+
+aside {
+    float: right;
+    width: 20%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+aside section {
+    border-bottom: 2px solid #888;
+    padding-bottom: 20px;
+    color: #30396D;
+}
+
+
+/*style for sidebar content*/
+
+.tags a {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 3px 5px 0;
+    border: 1px solid #888;
+}
+
+
+/*style for aside pic*/
+
+aside section img {
+    display: block;
+    width: 100%;
+}
+
+
+/*border for side pic*/
+
+aside .frame {
+    border: 2px solid #888;
+    padding: 2px;
+}
+
+
+/*style for li*/
+
+ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+
+/*style for footer*/
+
+.main-footer {
+    clear: both;
+    color: #fff;
+    background: #30396D;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.main-footer .spacer {
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.main-footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+/*style for footer*/
+
+.main-footer .news,
+.main-footer .events,
+.main-footer .socials {
+    width: 33%;
+    float: left;
+}
+
+
+/* style for footer list*/
+
+.main-footer li {
+    width: 90%;
+    padding: 4px 0;
+}
+
+
+/*style for buttons*/
+
+.btn {
+    display: block;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/*style for headings*/
+
+h1,
+h2,
+h3,
+h6 {
+    color: #30396D;
+}
